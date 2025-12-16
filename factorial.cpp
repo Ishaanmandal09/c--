@@ -1,0 +1,12 @@
+#include<iostream>
+using namespace std;
+int main(){
+	int i,fact=1,num;
+	cout<<"enter the number\t";
+	cin>>num;
+	for(i=1;i<=num;i++){
+	fact=fact*i;
+                    }
+					cout<<"factorial is["<<fact<<"]";
+  return 0;
+}
